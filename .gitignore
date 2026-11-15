@@ -1,0 +1,49 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/secrets.*.toml
+!.streamlit/secrets.toml.example
+*.pem
+*.key
+
+# Virtual environments / caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Uploaded/private material and large original reports
+*.pdf
+data/reports/
+data/uploads/
+uploads/
+tmp/
+temp/
+
+# User-specific evaluation outputs. Keep evaluation source/ground-truth separately.
+evaluation/results/
+evaluation/results_*/
+evaluation/results*/
+phase8/results/
+phase9/results/
+
+# Database files except the single curated, distributable read-only index
+*.sqlite3
+!data/index/reference_reports.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.sqlite3-journal
+*.db
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

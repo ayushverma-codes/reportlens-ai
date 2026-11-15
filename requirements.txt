@@ -1,0 +1,5 @@
+streamlit>=1.37,<2
+pymupdf>=1.24,<2
+pandas>=2.2,<3
+python-dotenv>=1.0,<2
+groq>=0.30,<1

@@ -1,0 +1,5 @@
+# Evaluation only: NOT required for Streamlit Community Cloud.
+-r requirements-dev.txt
+ragas==0.4.4
+openai>=1.82,<3
+instructor>=1.8,<2

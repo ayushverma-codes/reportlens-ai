@@ -1,0 +1,352 @@
+[
+  {
+    "id": "Q01",
+    "category": "Factual",
+    "question": "What was TCS consolidated revenue from operations in FY 2022-23?",
+    "ground_truth_answer": "₹225,458 crore.",
+    "source_document": "annual-report-2022-2023.pdf",
+    "source_section": "Consolidated Statement of Profit and Loss",
+    "source_page_or_note": "Financial statements; printed page 190 (verify PDF page mapping)",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q02",
+    "category": "Factual",
+    "question": "What was TCS consolidated profit for the year in FY 2022-23?",
+    "ground_truth_answer": "₹42,303 crore.",
+    "source_document": "annual-report-2022-2023.pdf",
+    "source_section": "Consolidated Statement of Profit and Loss",
+    "source_page_or_note": "Financial statements; printed page 191",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q03",
+    "category": "Factual",
+    "question": "What was TCS consolidated revenue from operations in FY 2023-24?",
+    "ground_truth_answer": "₹240,893 crore.",
+    "source_document": "annual-report-2023-2024.pdf",
+    "source_section": "Consolidated Statement of Profit and Loss",
+    "source_page_or_note": "Printed page 181",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q04",
+    "category": "Factual",
+    "question": "What was TCS consolidated profit for the year in FY 2023-24?",
+    "ground_truth_answer": "₹46,099 crore.",
+    "source_document": "annual-report-2023-2024.pdf",
+    "source_section": "Consolidated Statement of Profit and Loss",
+    "source_page_or_note": "Printed page 181",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q05",
+    "category": "Factual",
+    "question": "What was TCS consolidated revenue from operations in FY 2024-25?",
+    "ground_truth_answer": "₹255,324 crore.",
+    "source_document": "annual-report-2024-2025.pdf",
+    "source_section": "Consolidated Statement of Profit and Loss",
+    "source_page_or_note": "Printed page 179; use visual/table verification because parsed text has OCR spacing errors",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q06",
+    "category": "Factual",
+    "question": "What was TCS consolidated profit for the year in FY 2024-25?",
+    "ground_truth_answer": "₹48,797 crore.",
+    "source_document": "annual-report-2024-2025.pdf",
+    "source_section": "Consolidated Statement of Profit and Loss",
+    "source_page_or_note": "Printed page 179",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q07",
+    "category": "Factual",
+    "question": "What was TCS consolidated revenue from operations in FY 2025-26?",
+    "ground_truth_answer": "₹267,021 crore.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Consolidated Statement of Profit and Loss",
+    "source_page_or_note": "Printed page 197",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q08",
+    "category": "Factual",
+    "question": "What was TCS consolidated profit for the year in FY 2025-26?",
+    "ground_truth_answer": "₹49,454 crore.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Consolidated Statement of Profit and Loss",
+    "source_page_or_note": "Printed page 197",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q09",
+    "category": "Numerical",
+    "question": "What were TCS total consolidated expenses in FY 2025-26?",
+    "ground_truth_answer": "₹201,410 crore.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Consolidated Statement of Profit and Loss",
+    "source_page_or_note": "Printed page 197",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q10",
+    "category": "Numerical",
+    "question": "What was TCS EBIT and EBIT margin in FY 2025-26?",
+    "ground_truth_answer": "EBIT was ₹66,838 crore and EBIT margin was 25.0%.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Financial Performance Overview",
+    "source_page_or_note": "Printed page 88",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q11",
+    "category": "Numerical",
+    "question": "What was TCS reported revenue growth in FY 2025-26?",
+    "ground_truth_answer": "4.6%.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Analysis of revenue growth and margin performance",
+    "source_page_or_note": "Printed page 88",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q12",
+    "category": "Numerical",
+    "question": "What was TCS constant-currency revenue growth in FY 2025-26?",
+    "ground_truth_answer": "A decline of 2.4%.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Analysis of revenue growth and margin performance",
+    "source_page_or_note": "Printed page 88",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q13",
+    "category": "Numerical",
+    "question": "What was TCS order book at the close of FY 2025-26?",
+    "ground_truth_answer": "US$40.7 billion.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Analysis of revenue growth and margin performance",
+    "source_page_or_note": "Printed page 88",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q14",
+    "category": "Comparison",
+    "question": "How did consolidated revenue change from FY 2022-23 to FY 2023-24?",
+    "ground_truth_answer": "It increased from ₹225,458 crore to ₹240,893 crore.",
+    "source_document": "annual-report-2022-2023.pdf; annual-report-2023-2024.pdf",
+    "source_section": "Consolidated financial results",
+    "source_page_or_note": "FY23 report financial statements; FY24 report printed page 181",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q15",
+    "category": "Comparison",
+    "question": "How did consolidated revenue change from FY 2023-24 to FY 2024-25?",
+    "ground_truth_answer": "It increased from ₹240,893 crore to ₹255,324 crore.",
+    "source_document": "annual-report-2023-2024.pdf; annual-report-2024-2025.pdf",
+    "source_section": "Consolidated financial results",
+    "source_page_or_note": "FY24 printed page 181; FY25 printed page 179",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q16",
+    "category": "Comparison",
+    "question": "How did profit for the year change from FY 2024-25 to FY 2025-26?",
+    "ground_truth_answer": "It increased from ₹48,797 crore to ₹49,454 crore.",
+    "source_document": "annual-report-2024-2025.pdf; TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Consolidated Statement of Profit and Loss",
+    "source_page_or_note": "FY25 printed page 179; FY26 printed page 197",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q17",
+    "category": "Comparison",
+    "question": "Which geographic segment had the highest revenue in FY 2025-26?",
+    "ground_truth_answer": "Americas, with ₹134,998 crore.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Performance Trend – 10 years / Revenue by geographic segments",
+    "source_page_or_note": "Printed page 98",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q18",
+    "category": "Comparison",
+    "question": "Which industry vertical had the highest revenue in FY 2025-26?",
+    "ground_truth_answer": "Banking, Financial Services and Insurance (BFSI), with ₹103,363 crore.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Segmental Performance",
+    "source_page_or_note": "Printed page 89",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q19",
+    "category": "Comparison",
+    "question": "Which industry vertical had the highest year-on-year revenue growth in FY 2025-26?",
+    "ground_truth_answer": "Others, with 19.0% growth.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Segmental Performance",
+    "source_page_or_note": "Printed page 89",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q20",
+    "category": "Comparison",
+    "question": "What was the FY 2025-26 revenue growth of Communication, Media and Technology?",
+    "ground_truth_answer": "It declined by 14.0%.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Segmental Performance",
+    "source_page_or_note": "Printed page 89",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q21",
+    "category": "Analysis",
+    "question": "What factors affected TCS revenue growth in FY 2025-26?",
+    "ground_truth_answer": "The report cites completion of a large domestic deal, heightened macroeconomic uncertainty and geopolitical tensions. It also notes currency movements positively affected reported revenue.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Analysis of revenue growth and margin performance",
+    "source_page_or_note": "Printed page 88",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q22",
+    "category": "Analysis",
+    "question": "What client priorities were highlighted in FY 2025-26?",
+    "ground_truth_answer": "Cost optimisation, vendor consolidation and technology modernisation, including legacy and mainframe transformation; cloud and data modernisation were also major themes.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Analysis of revenue growth and margin performance",
+    "source_page_or_note": "Printed page 88",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q23",
+    "category": "Analysis",
+    "question": "How did TCS explain its operating margin improvement in FY 2025-26?",
+    "ground_truth_answer": "It cited business-mix improvement, productivity and realisation, pyramid rebalancing and favourable currency movements; investments in talent and capabilities partly offset these benefits.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Analysis of revenue growth and margin performance",
+    "source_page_or_note": "Printed page 88",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q24",
+    "category": "Analysis",
+    "question": "What is TCS's approach to managing volatile global, political and economic conditions?",
+    "ground_truth_answer": "It describes a broad-based business mix across geographies and industry verticals, active monitoring of geopolitical changes, business continuity plans and strengthened internal controls.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Key risks and mitigation strategies",
+    "source_page_or_note": "Printed page 91",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q25",
+    "category": "Analysis",
+    "question": "What risk does TCS associate with disruptive technologies?",
+    "ground_truth_answer": "Rapid technology disruption and inadequate guardrails or governance can create quality, security, intellectual-property and ethical concerns; GenAI may disrupt existing software development methods.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Key risks and mitigation strategies",
+    "source_page_or_note": "Printed page 91 and following",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q26",
+    "category": "Analysis",
+    "question": "What mitigation measures does TCS describe for disruptive technology risk?",
+    "ground_truth_answer": "Large-scale reskilling on AI and new technologies, foundational AI and GenAI awareness training, and governance/guardrails are described.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Key risks and mitigation strategies",
+    "source_page_or_note": "Printed page 91 and following",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q27",
+    "category": "Analysis",
+    "question": "How does TCS describe its enterprise risk management coverage?",
+    "ground_truth_answer": "It covers strategic, operational, compliance, financial and catastrophic risks, assessed through top-down and bottom-up approaches across the enterprise.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Enterprise Risk Management",
+    "source_page_or_note": "MD&A, printed page 91",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q28",
+    "category": "Analysis",
+    "question": "What controls support TCS's financial reporting according to FY 2025-26 report?",
+    "ground_truth_answer": "The report describes an ERP system connecting organizational functions for accounting, consolidation and management information, along with internal controls and audit committee oversight.",
+    "source_document": "TCS_Annual_Report_2025-26.pdf",
+    "source_section": "Internal Financial Controls",
+    "source_page_or_note": "Printed page 98",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q29",
+    "category": "Summary",
+    "question": "Summarize TCS's business in the FY 2024-25 management discussion.",
+    "ground_truth_answer": "TCS describes itself as an IT services, consulting and business solutions organization, offering application development and management, digital transformation, AI, data and cloud services, engineering, cognitive business operations, and products/platforms.",
+    "source_document": "annual-report-2024-2025.pdf",
+    "source_section": "Management Discussion and Analysis – TCS' Business",
+    "source_page_or_note": "Printed page 79",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q30",
+    "category": "Summary",
+    "question": "What are the main industry vertical clusters identified by TCS in FY 2024-25?",
+    "ground_truth_answer": "BFSI; Communication, Media and Technology; Consumer Business; Life Sciences and Healthcare; Manufacturing; and Others, including Energy, Resources and Utilities, Public Services and Products.",
+    "source_document": "annual-report-2024-2025.pdf",
+    "source_section": "Management Discussion and Analysis – TCS' Business",
+    "source_page_or_note": "Printed page 79",
+    "expected_behavior": "Answer with cited evidence"
+  },
+  {
+    "id": "Q31",
+    "category": "Unanswerable",
+    "question": "What was TCS consolidated revenue in FY 2030-31?",
+    "ground_truth_answer": "Not available in the uploaded reports. The system should state that the documents do not contain this information.",
+    "source_document": "All four reports",
+    "source_section": "Not present",
+    "source_page_or_note": "Unanswerable test",
+    "expected_behavior": "Abstain; explain information is not in uploaded reports"
+  },
+  {
+    "id": "Q32",
+    "category": "Unanswerable",
+    "question": "What was TCS's net profit in calendar year 2021?",
+    "ground_truth_answer": "Not available as a calendar-year figure in the uploaded annual reports; the reports present financial-year information.",
+    "source_document": "All four reports",
+    "source_section": "Not present",
+    "source_page_or_note": "Unanswerable test",
+    "expected_behavior": "Abstain; explain information is not in uploaded reports"
+  },
+  {
+    "id": "Q33",
+    "category": "Unanswerable",
+    "question": "What was TCS's revenue in the first quarter of FY 2026-27?",
+    "ground_truth_answer": "Not available in the uploaded annual reports.",
+    "source_document": "All four reports",
+    "source_section": "Not present",
+    "source_page_or_note": "Unanswerable test",
+    "expected_behavior": "Abstain; explain information is not in uploaded reports"
+  },
+  {
+    "id": "Q34",
+    "category": "Unanswerable",
+    "question": "Which company had higher revenue, TCS or Infosys, in FY 2025-26?",
+    "ground_truth_answer": "Cannot be determined from the uploaded reports because they contain TCS reports only.",
+    "source_document": "All four reports",
+    "source_section": "Not present",
+    "source_page_or_note": "Unanswerable test",
+    "expected_behavior": "Abstain; explain information is not in uploaded reports"
+  },
+  {
+    "id": "Q35",
+    "category": "Unanswerable",
+    "question": "What was TCS's exact market share in every country in FY 2025-26?",
+    "ground_truth_answer": "The uploaded report excerpts do not provide an exact market-share figure for every country. The system should not invent one.",
+    "source_document": "All four reports",
+    "source_section": "Not present",
+    "source_page_or_note": "Unanswerable test",
+    "expected_behavior": "Abstain; explain information is not in uploaded reports"
+  }
+]
