@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pytest
 
-from src.evaluation.dataset_loader import load_ground_truth
+from evaluation.dataset_loader import load_ground_truth
 
 ROOT = Path(__file__).resolve().parents[1] / 'evaluation' / 'ground_truth'
 EXPECTED = {'Factual': 8, 'Numerical': 5, 'Comparison': 7,

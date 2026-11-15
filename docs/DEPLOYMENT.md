@@ -1,6 +1,6 @@
 # Phase 9 — GitHub + Streamlit Community Cloud deployment
 
-This release is **prepared for deployment, not yet publicly deployed**. Streamlit Community Cloud reads GitHub source, installs dependencies from `requirements.txt` and launches `app.py`. The original large TCS PDFs are not needed because the repository includes the read-only 8.9 MiB FTS index.
+ReportLens AI is deployed on Streamlit Community Cloud. This guide documents how to reproduce and verify the deployment. Streamlit Community Cloud reads GitHub source, installs dependencies from `requirements.txt` and launches `app.py`. The original large TCS PDFs are not needed because the repository includes the read-only 8.9 MiB FTS index.
 
 ## 1. Preflight on your Windows machine
 
@@ -37,7 +37,7 @@ git init
 git branch -M main
 
 # Stage ONLY the deployment-safe source, index and public docs.
-git add .gitignore .gitattributes .env.example .streamlit/config.toml .streamlit/secrets.toml.example .github/workflows/tests.yml README.md PROJECT_STATUS.md DECISIONS.md app.py src/ scripts/ tests/ evaluation/*.py evaluation/ground_truth/ requirements.txt requirements-dev.txt requirements-eval.txt data/index/reference_reports.sqlite3 docs/
+git add .gitignore .gitattributes .env.example .streamlit/config.toml .streamlit/secrets.toml.example .github/workflows/tests.yml README.md DECISIONS.md app.py src/ scripts/ tests/ evaluation/*.py evaluation/ground_truth/ requirements.txt requirements-dev.txt requirements-eval.txt data/index/reference_reports.sqlite3 docs/
 
 git diff --cached --name-only
 python -m scripts.phase9_preflight --check-git
