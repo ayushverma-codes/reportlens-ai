@@ -14,6 +14,7 @@ load_dotenv(ROOT / '.env')
 
 from src.document_routing import AUTO, COMPARE, catalog, select_docs
 from src.clarification import complete_company_question
+from src.conversation_context import resolve_followup_question
 from src.upload_policy import plan_session_uploads
 from src.session_utils import clear_conversation, clear_private_uploads
 from src.response_safety import safe_answer_error
@@ -197,6 +198,9 @@ if st.session_state.pending_question:
     effective_question = complete_company_question(pending, original_intent, groups) or pending
     st.session_state.awaiting_company_question = None
     history = st.session_state.messages[:-1]
+    # Resolve referential follow-ups before company routing AND retrieval.
+    # Previous assistant replies supply intent, never source financial figures.
+    effective_question = resolve_followup_question(effective_question, history, groups)
     with st.chat_message('assistant'):
         try:
             with st.spinner('Searching evidence and generating an answer...'):
